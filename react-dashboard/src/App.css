@@ -1,0 +1,39 @@
+
+.app {
+    height: 500px;
+    background-color: lightslategrey;
+
+}
+.router1{
+  flex-direction: row;
+    display: flex;
+  
+    
+    
+}
+
+.router2 {
+    position: relative;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+
+.setting-button{
+    padding: 3px;
+    border-radius: 50%;
+    /* settings button position */
+    margin-left: 1000px;
+    
+}
+    .setting-button:hover {
+        background-color: lightgrey;
+
+    }
+
+    .side-bar{
+        width: 72px;
+        position: fixed;
+        background-color: darkgrey;
+    }
+
