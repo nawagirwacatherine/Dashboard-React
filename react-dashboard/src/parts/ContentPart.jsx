@@ -6,7 +6,9 @@ const ContentPart = () => {
   return (
     <>
     <div>
-    <div className='settings' style={{zIndex:"1000"}}>
+    content part
+    <div className='settings'>
+    
       <button className='settings-button'><FiSettings /></button>
       </div>
       </div>
