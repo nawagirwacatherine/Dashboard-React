@@ -1,8 +1,16 @@
 .settings {
-  margin-bottom: 5000px;
+    position: fixed; /* Use fixed to attach to the viewport */
+    bottom: 40px;     /* Distance from the bottom */
+    right: 40px;      /* Distance from the right */
+    z-index: 1000;    /* Already set inline, but better here */
+  }
   
-}
-
-.settings-button{
-    color: rgb(121, 121, 253);
-}
+  .settings-button {
+    background-color: #fff; /* Add styling as needed */
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 20px;
+  }

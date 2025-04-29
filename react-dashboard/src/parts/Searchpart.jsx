@@ -8,7 +8,7 @@ const Searchpart = () => {
   return (
     <div className='search'>
         <div className='menu-search'>
-        <button><IoMenu/></button>
+        <button className='menu-button'><IoMenu/></button>
         <FiSearch />
         </div>
 
