@@ -1,12 +1,12 @@
 .settings {
-    position: fixed; /* Use fixed to attach to the viewport */
-    bottom: 40px;     /* Distance from the bottom */
-    right: 40px;      /* Distance from the right */
-    z-index: 1000;    /* Already set inline, but better here */
+    position: fixed; 
+    bottom: 40px;     
+    right: 40px;       
+    z-index: 1000;    
   }
   
   .settings-button {
-    background-color: #fff; /* Add styling as needed */
+    background-color: #fff; 
     border: none;
     padding: 10px;
     border-radius: 50%;
