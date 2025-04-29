@@ -1,0 +1,18 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    color: rgb(123, 183, 183);
+}
+
+.menu-search{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.profile{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}

@@ -12,10 +12,13 @@ const Parts = () => {
     <div className='parts'>
 
         <div className='left-part'><LeftPart/></div>
-        
+        <div>
+
         <div className='search-bar'><Searchpart /></div>
         
         <div className='content-part'><ContentPart/></div>
+        </div>
+        
         
     </div>
   )
