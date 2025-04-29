@@ -1,7 +1,7 @@
 
 .app {
     height: 500px;
-    background-color: lightslategrey;
+    background-color: rgb(247, 248, 250);
 
 }
 .router1{
@@ -31,9 +31,26 @@
 
     }
 
-    .side-bar{
-        width: 72px;
-        position: fixed;
-        background-color: darkgrey;
+
+    .side-bar1 {
+        width: 0;
+        background-color: darkgray;
     }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-bar{
+        width: 18rem;
+        margin: 5px;
+        padding: 3px;
+        position: fixed;
+        box-shadow: 10px 10px 15px rgba(158, 156, 156, 0.3);
+      }
+  
+      .nav-bar{
+       
+      }
 
