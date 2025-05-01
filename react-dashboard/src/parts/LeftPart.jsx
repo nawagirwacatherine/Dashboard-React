@@ -1,5 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { Navbar, Footer, Sidebar, ThemeSettings} from './components'
+import { Ecommerce, Orders, Calender, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
 
 const LeftPart = () => {
   return (
