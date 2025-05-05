@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping,Line } from '../pages';
+import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from '../pages';
 
 const LeftPart = () => {
   return (
