@@ -7,6 +7,10 @@ const LeftPart = () => {
   return (
     <div>
       <Router>
+        <div className="left-part">
+          
+        </div>
+
         <Routes>
           
            {/* Dashboard */}
