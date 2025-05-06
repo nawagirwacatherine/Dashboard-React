@@ -1,5 +1,16 @@
 
 .side-bar{
     margin-left: 3px;
-    
+    overflow: auto;
+    padding-bottom: 10px;
 }
+
+.side-bar:hover{
+    overflow: auto;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+}
+

@@ -6,8 +6,18 @@ import ReactTooltip from 'react-tooltip';
 import { links } from '../data/dummy';
 
 const Sidebar = () => {
+  const activeMenu = true;
   return (
-    <div className='side-bar'>Sidebar</div>
+    <div className='side-bar'>
+
+      {activeMenu && (<>
+      <div className='items'>
+        <Link to="/" onClick={() => {}} className='shopware'>
+       < SiShopware /> <span>Shoppy</span> 
+        </Link>
+      </div>
+      </>)}
+    </div>
   )
 }
 
