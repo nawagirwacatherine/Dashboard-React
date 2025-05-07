@@ -2,11 +2,16 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping,Line } from '../pages';
 import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from '../pages';
+import Sidebar from "../components/Sidebar.jsx";
 
 const LeftPart = () => {
   return (
     <div>
       <Router>
+
+        <div>
+          < Sidebar />
+        </div>
         <div className="left-part">
           
         </div>

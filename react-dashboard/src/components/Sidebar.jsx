@@ -2,8 +2,8 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { SiShopware } from  'react-icons/si';
 import { MdOutlineCancel } from 'react-icons/md';
-import ReactTooltip from 'react-tooltip';
-import { links } from '../data/dummy';
+import { Tooltip } from 'react-tooltip';
+// import { links } from '../data/dummy';
 
 const Sidebar = () => {
   const activeMenu = true;
@@ -12,9 +12,11 @@ const Sidebar = () => {
 
       {activeMenu && (<>
       <div className='items'>
-        <Link to="/" onClick={() => {}} className='shopware'>
+        <Link to="/" onClick={() => {}} className='shopware' data-tip="Go to dashboard">
        < SiShopware /> <span>Shoppy</span> 
         </Link>
+
+        <Tooltip id="my-tooltip" />
       </div>
       </>)}
     </div>
