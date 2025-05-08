@@ -1,13 +1,13 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar.jsx";
 
-const LeftPart = () => {
+const LeftPart = ({onClose}) => {
   return (
    
 
-        <div>
-          < Sidebar />
-        </div>
+    
+          < Sidebar onClose={ onClose} />
+      
        
 
   )
