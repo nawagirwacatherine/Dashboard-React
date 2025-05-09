@@ -17,7 +17,7 @@ const Sidebar = () => {
     { to: '/customers', label:'Customers'},
     { to: '/kanban', label:'Kanban' },
     { to: '/editor', label: 'Editor'},
-    { to: '/calender', label: 'Calender'},
+    { to: '/calendar', label: 'Calendar'},
     { to: '/color-picker', label: 'Color Picker' },
 { to: '/line', label: 'Line Chart' },
 { to: '/area', label: 'Area Chart' },
