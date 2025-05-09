@@ -3,8 +3,8 @@ import './content.css'
 import { Outlet } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
-import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping,Line } from './Charts';
-import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
+import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping,Line } from "../pages";
+import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from '../pages';
 
 const ContentPart = () => {
   return (
