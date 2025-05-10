@@ -11,24 +11,24 @@ import { links } from  '../data/dummy';
 const Sidebar = () => {
   const activeMenu = true;
 
-  const links =[
-    { to: '/ecommerce' , label: 'Dashboard' },
-    { to: '/orders', label:'Orders'},
-    { to: '/employees', label: 'Employees'},
-    { to: '/customers', label:'Customers'},
-    { to: '/kanban', label:'Kanban' },
-    { to: '/editor', label: 'Editor'},
-    { to: '/calendar', label: 'Calendar'},
-    { to: '/color-picker', label: 'Color Picker' },
-{ to: '/line', label: 'Line Chart' },
-{ to: '/area', label: 'Area Chart' },
-{ to: '/bar', label: 'Bar Chart' },
-{ to: '/pie', label: 'Pie Chart' },
-{ to: '/financial', label: 'Financial Chart' },
-{ to: '/color-mapping', label: 'Color Mapping' },
-{ to: '/pyramid', label: 'Pyramid Chart' },
-{ to: '/stacked', label: 'Stacked Chart' },
-  ];
+//   const links =[
+//     { to: '/ecommerce' , label: 'Dashboard' },
+//     { to: '/orders', label:'Orders'},
+//     { to: '/employees', label: 'Employees'},
+//     { to: '/customers', label:'Customers'},
+//     { to: '/kanban', label:'Kanban' },
+//     { to: '/editor', label: 'Editor'},
+//     { to: '/calendar', label: 'Calendar'},
+//     { to: '/color-picker', label: 'Color Picker' },
+// { to: '/line', label: 'Line Chart' },
+// { to: '/area', label: 'Area Chart' },
+// { to: '/bar', label: 'Bar Chart' },
+// { to: '/pie', label: 'Pie Chart' },
+// { to: '/financial', label: 'Financial Chart' },
+// { to: '/color-mapping', label: 'Color Mapping' },
+// { to: '/pyramid', label: 'Pyramid Chart' },
+// { to: '/stacked', label: 'Stacked Chart' },
+//   ];
   return (
     <>
     <div className='side-bar'>

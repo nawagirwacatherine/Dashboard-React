@@ -1,5 +1,7 @@
-import { FiShoppingBag } from 'react-icons';
-import { AiOutlineShoppingCart } from 'react-icons'
+import { FaCreativeCommonsSampling } from "react-icons/fa";
+import { BsBorderStyle } from "react-icons/bs";
+import { BsPeopleFill } from "react-icons/bs";
+import { RiCustomerService2Line } from "react-icons/ri";
 import { MdOutlineViewKanban } from "react-icons/md";
 import { SiCkeditor4 } from "react-icons/si";
 import { SlCalender } from "react-icons/sl";
@@ -20,7 +22,7 @@ export  const links = [
     links: [
         {
             name:'ecommerce',
-            icon:<FiShoppingBag />,
+            icon:< FaCreativeCommonsSampling />,
         },
     ]
 },
@@ -30,17 +32,17 @@ title: 'pages',
 links:[
     {
         name: 'orders',
-        icon: < AiOutlineShoppingCart />
+        icon: < BsBorderStyle />
     },
 
     {
      name: 'employees',
-     icon:<IoMdContacts />,
+     icon:< BsPeopleFill />,
     },
 
     {
         name:'customers',
-        icon:<RiContactsLine />,
+        icon:<RiCustomerService2Line />,
     },
 ],
 },
