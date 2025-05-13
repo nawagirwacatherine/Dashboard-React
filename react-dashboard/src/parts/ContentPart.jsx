@@ -1,5 +1,6 @@
 import React from 'react'
 import './content.css'
+import 'react-tooltip/dist/react-tooltip.css'; 
 import { Outlet } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
@@ -53,8 +54,11 @@ const ContentPart = () => {
 </Router>
  
     <div className='settings'>
+      <Tooltip  content= 'settings' position= 'top'>
     
       <button className='settings-button'><FiSettings /></button>
+
+      </Tooltip>
       </div>
       </div>
     </>
