@@ -1,5 +1,6 @@
 import React from 'react'
 import './content.css'
+import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
 import { Outlet } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'

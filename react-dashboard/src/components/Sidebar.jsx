@@ -45,7 +45,7 @@ const Sidebar = () => {
 <nav className="sidebar">
 <ul>
   {links.map((item) => (
-    <li key={item.to}>
+    <li key={item.title}>
       <NavLink
         to={item.to}
         className={({ isActive }) =>
