@@ -20,6 +20,7 @@ const ContentPart = () => {
 
               
     <Router>
+      <div>
     
 
 <Routes>
@@ -52,6 +53,7 @@ const ContentPart = () => {
    
  
 </Routes>
+</div>
 </Router>
  
     <div className='settings'>
