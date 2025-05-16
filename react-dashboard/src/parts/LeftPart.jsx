@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar.jsx";
 
+
 const LeftPart = ({onClose}) => {
   return (
    
