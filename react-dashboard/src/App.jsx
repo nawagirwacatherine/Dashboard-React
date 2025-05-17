@@ -1,26 +1,47 @@
 import React from 'react';
-import './content.css'
+import './App.css'
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
 import { Outlet } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
-import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, } from "../pages";
-import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from '../pages';
-import { Navbar, Footer, Sidebar, ThemeSettings } from '../components';
+import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, } from "./pages";
+import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
+import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
+import { FiSearch, FiShoppingCart,  FiMail,   } from "react-icons/fi";
+import { TfiBell } from "react-icons/tfi";
+import { IoMenu } from "react-icons/io5";
 
 const App = () => {
   return (
     <>
 
+     <div className='search'>
+            <div className='menu-search'>
+            <button className='menu-button'><IoMenu/></button>
+            <FiSearch />
+            </div>
+    
+            <div className='profile'>
+            <FiShoppingCart />
+              <FiMail />
+              <TfiBell />
+            </div>
+             
+            
+        </div>
+
 <div className="content-display">
       <Outlet /> {/* This is where your pages like Ecommerce, Orders, etc. will render */}
     </div>
-    <div>
 
+
+      
+ <div className='content'>
               
     <Router>
-    
+    < Sidebar/>
+    <Navbar/>
 
 <Routes>
   
