@@ -37,3 +37,14 @@
     padding: 10px;
     gap: 10px;
 }
+
+.parts {
+    display: flex;
+    margin: 10px;
+    height: 560px;
+    border-radius: 2px;
+    
+   
+    
+    
+}

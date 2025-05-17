@@ -15,6 +15,8 @@ import { IoMenu } from "react-icons/io5";
 const App = () => {
   return (
     <>
+    <Router>
+    <div className='parts'>
 
      <div className='search'>
             <div className='menu-search'>
@@ -37,11 +39,13 @@ const App = () => {
 
 
       
- <div className='content'>
+ 
               
-    <Router>
+    
+      <div className='content'>
     < Sidebar/>
     <Navbar/>
+    </div>
 
 <Routes>
   
@@ -73,18 +77,25 @@ const App = () => {
    
  
 </Routes>
-</Router>
+
+
+
  
     <div className='settings'>
       {/* <Tooltip  content= 'settings' position= 'top'> */}
     
-      <button className='settings-button' data-tooltip-id="settings-tooltip"
-  data-tooltip-content="Settings"><FiSettings /></button>
+      <button className='settings-button'
+       data-tooltip-id="settings-tooltip"
+  data-tooltip-content="Settings"
+  >
+    <FiSettings /></button>
 
       {/* </Tooltip> */}
       <Tooltip id="settings-tooltip" place="top" />
       </div>
-      </div>
+      
+       </div>
+       </Router>
     </>
   )
 }
