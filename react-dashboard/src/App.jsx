@@ -76,11 +76,13 @@ const App = () => {
 </Router>
  
     <div className='settings'>
-      <Tooltip  content= 'settings' position= 'top'>
+      {/* <Tooltip  content= 'settings' position= 'top'> */}
     
-      <button className='settings-button'><FiSettings /></button>
+      <button className='settings-button' data-tooltip-id="settings-tooltip"
+  data-tooltip-content="Settings"><FiSettings /></button>
 
-      </Tooltip>
+      {/* </Tooltip> */}
+      <Tooltip id="settings-tooltip" place="top" />
       </div>
       </div>
     </>
