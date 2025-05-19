@@ -19,7 +19,7 @@ const Sidebar = () => {
             data-tooltip-id="dashboard-tooltip"
             data-tooltip-content="Dashboard"
           >
-            <SiShopware /> <span>Shoppy</span>
+            <SiShopware className= 'text-color-red' /> <span>Shoppy</span>
           </Link>
           <Tooltip id="dashboard-tooltip" />
         </div>
