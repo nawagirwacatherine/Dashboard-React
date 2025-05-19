@@ -5,10 +5,10 @@ import { MdOutlineCancel } from 'react-icons/md';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 import { links } from '../data/dummy';
-import { useStateContext } from '../contexts'
+import { useStateContext } from '../contexts/ContextProvider'
 
 const Sidebar = () => {
-  const activeMenu = true;
+  const { activeMenu, setActiveMenu} = useStateContext();
   const activeLink = 'flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-white text-md m-2';
   const normalLink = 'flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg  text-md text-gray-700 dark:text-gray-200 dark:hover:text-black hover:bg-light-gray m-2';
 
@@ -19,14 +19,14 @@ md:hover:overflow-auto pb-10'>
       {activeMenu && (<>
         <div className='flex justify-between items-center'>
           <Link
-            to="/" onClick={() => {}}
+            to="/" onClick={() => setActiveMenu(false)}
             className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-green text-slate-900'
           
           >
             <SiShopware className= 'text-color-red' /> <span>Shoppy</span>
           </Link>
           <button type='button'
-           onClick={() => {}} 
+           onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} 
            className='text-xl rounded-full p-3 hover:bg-light-gray mt-4  hidden md:block'
            data-tooltip-id="dashboard-tooltip"
             data-tooltip-content="Menu"> <MdOutlineCancel/></button>

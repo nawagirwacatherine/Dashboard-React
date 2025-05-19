@@ -18,7 +18,9 @@ import React, {createContext, useContext,
 
         return(
             <StateContext.Provider 
-            value={{activeMenu,}}
+            value={{activeMenu,
+                setActiveMenu,
+            }}
             >
                 {children}
             </StateContext.Provider>
