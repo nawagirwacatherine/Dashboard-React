@@ -10,10 +10,11 @@ import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { FiSearch, FiShoppingCart,  FiMail,   } from "react-icons/fi";
 import { TfiBell } from "react-icons/tfi";
 import { IoMenu } from "react-icons/io5";
+import {useStateContext} from './contexts/ContextProvider';
 
 const App = () => {
 
-  const activeMenu = true;
+  const {activeMenu} = useStateContext();
   return (
     <>
     <Router>
