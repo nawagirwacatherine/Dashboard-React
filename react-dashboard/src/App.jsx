@@ -7,9 +7,6 @@ import {FiSettings  } from "react-icons/fi";
 import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, } from "./pages";
 import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { FiSearch, FiShoppingCart,  FiMail,   } from "react-icons/fi";
-import { TfiBell } from "react-icons/tfi";
-import { IoMenu } from "react-icons/io5";
 import {useStateContext} from './contexts/ContextProvider';
 
 const App = () => {
@@ -47,33 +44,6 @@ const App = () => {
           <Navbar/>
         </div>
       </div>
-
-
- {/* <div>
- <div className='search'>
-            <div className='menu-search'>
-            <button className='menu-button'><IoMenu/></button>
-            <FiSearch />
-            </div>
-    
-            <div className='profile'>
-            <FiShoppingCart />
-              <FiMail />
-              <TfiBell />
-            </div>
-              
-   
-            
-        </div>
-
-</div> */}
-
-      
- 
-              
-    
-  
-    
 
 <Routes>
   

@@ -6,8 +6,8 @@ import React, {createContext, useContext,
     const StateContext = createContext();
 
     const initialState = {
-        chat:false,
         cart:false,
+        chat:false,
         userProfile:false,
         notification:false,
     }
@@ -15,19 +15,23 @@ import React, {createContext, useContext,
     export const ContextProvider = ({children}) =>{
           
         const [activeMenu, setActiveMenu] = useState(true);
-        const [isClicked, setIsClicked] = useState(initialState)
+        const [isClicked, setIsClicked] = useState(initialState);
+        const [screenSize, setScreenSize] = useState(undefined);
 
-        const handleClick= (clicked) => {
+        const handleClick = (clicked) => {
             setIsClicked({...initialState, [clicked]:true});
         }
 
         return(
             <StateContext.Provider 
-            value={{activeMenu,
+            value={{
+                activeMenu,
                 setActiveMenu,
                 isClicked,
                 setIsClicked,
-                handleClick
+                handleClick,
+                screenSize, 
+                setScreenSize
             }}
             >
                 {children}

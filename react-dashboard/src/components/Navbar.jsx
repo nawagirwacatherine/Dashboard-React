@@ -9,6 +9,7 @@ import 'react-tooltip/dist/react-tooltip.css';
 import  avatar from '../data/avatar.jpg'
 import { Cart, Chat, Notification, UserProfile } from '.'
 import { useStateContext } from '../contexts/ContextProvider';
+import { useEffect } from 'react';
 
 
    const NavButton = ({title, customFunc, icon, color, dotColor }) => (
@@ -34,9 +35,17 @@ import { useStateContext } from '../contexts/ContextProvider';
 const Navbar = () => {
 
   const { activeMenu, setActiveMenu,
-    isClicked, setIsClicked,handleClick
-  } =
-   useStateContext();
+    isClicked, setIsClicked,handleClick, screenSize, setScreenSize } = useStateContext();
+
+    useEffect(() => {
+     const handleResize = () => setScreenSize (window.innerWidth);
+
+     window.addEventListener('resize',handleResize)
+     handleResize();
+
+     return () => window.removeEventListener
+     ('resize', handleResize);
+    }, []);
   return (
     <div className='flex justify-between p-2 md:mx-6 relative '>
     <NavButton title="Menu" customFunc = {() => setActiveMenu((prevActiveMenu) =>!prevActiveMenu)} color='blue' icon ={< AiOutlineMenu /> } />
