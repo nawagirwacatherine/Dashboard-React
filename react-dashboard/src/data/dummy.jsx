@@ -32,7 +32,7 @@ title: 'pages',
 links:[
     {
         name: 'orders',
-        icon: < BsBorderStyle />
+        icon: < BsBorderStyle />,
     },
 
     {
