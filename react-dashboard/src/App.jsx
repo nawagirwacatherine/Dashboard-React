@@ -1,7 +1,6 @@
 import React from 'react';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
-import { Outlet } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
 import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, } from "./pages";
@@ -14,7 +13,9 @@ const App = () => {
   const {activeMenu} = useStateContext();
   return (
     <>
+    
     <Router>
+      
     <div className='flex relative dark:bg-main-dark-bg'>
        <div className='fixed right-4 bottom-4' style={{zIndex: '1000'}}>
     
@@ -43,25 +44,33 @@ const App = () => {
         <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
           <Navbar/>
         </div>
-      </div>
-
+     
+<div>
 <Routes>
-  
+
+
    {/* Dashboard */}
    <Route path="/" element={<Ecommerce />}/>
    <Route path="/ecommerce" element={<Ecommerce/>} />
+
+
+
 
    {/* pages */}
    <Route path="/orders" element={<Orders/>}/>
    <Route path="/employees" elements={<Employees/>} />
    <Route path="/customers" element={<Customers />}/>
 
-   {/* Apps */}
 
+
+
+   {/* Apps */}
    <Route path="/kanban" element={<Kanban/>} />
    <Route  path="/editor" element={<Editor/>}/>
    <Route path="/calender" element={<Calender/>}/>
    <Route path="/color-picker" element={<ColorPicker/>}/>
+
+
 
    {/* charts */}
    <Route path="/area" element={<Area/>} />
@@ -71,12 +80,12 @@ const App = () => {
    <Route path="/color-mapping" element={<ColorMapping/>} />
    <Route path="/pyramid" element={<Pyramid/>} />
    <Route path="/stacked" element={<Stacked/>}/>
-
    
  
 </Routes>
 </div>
-
+ </div>
+      </div>
        </Router>
     </>
   )
