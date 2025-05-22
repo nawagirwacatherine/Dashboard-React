@@ -1,4 +1,6 @@
 
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,7 +8,11 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/src/data/avatar.jpg')", // 👈 Update this path
+      },
+    },
   },
   plugins: [],
 }

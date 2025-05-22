@@ -3,7 +3,7 @@ import { BsCurrencyDollar } from 'react-icons/bs';
 
 import { GoDot } from 'react-icons/go';
 
-import { Stacked, Pie, Button,SparkLine } from '../components';
+import { Stacked, Pie, Button, Line } from '../components';
 
 import { earningData, SparklineAreaData, ecomPieChartDat} from '../data/dummy';
 
@@ -17,8 +17,13 @@ const Ecommerce = () => {
         dark:text-gray-200
         dark:bg-secondary-dark-bg h-44
         rounded-xl w-full lg:w-80 p-8
-        pt-9 m-3 bg-hero-pattern bg-no-repat bg-cover bg-center'
+        pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center'
         >
+     
+          <div className='flex justify-between items-center'>
+            <p font-bold text-gray-400>Earnings</p>
+            <p className='text-2xl'>$63,448.78</p>
+          </div>
 
           
         </div>
