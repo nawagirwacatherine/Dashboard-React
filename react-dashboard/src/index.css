@@ -2,3 +2,6 @@
 @import "tailwindcss";
 @import './css/App.css';
 @import './css/sidebar.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
