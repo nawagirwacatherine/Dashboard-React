@@ -23,17 +23,20 @@ const Ecommerce = () => {
           <div className='flex justify-between items-center'>
             <p font-bold text-gray-400>Earnings</p>
             <p className='text-2xl'>$63,448.78</p>
-          </div>
-        </div>
 
-        <div className='mt-6'>
+          </div>
+          
+        </div>
+   <div className='mt-6'>
          <Button 
          color='white'
          bgColor='blue'
-         text= 'Download'
+         text='Download'
          borderRadius='10px'
+         size ='md'
          />
         </div>
+      
       </div>
 
     </div>
