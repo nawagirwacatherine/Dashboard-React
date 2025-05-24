@@ -36,6 +36,27 @@ const Ecommerce = () => {
          size ='md'
          />
         </div>
+
+        <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>
+          {earningData.map((item) =>
+          (
+            <div key={item.title}
+            className='bg-white
+             dark:text-gray-200
+             dark:bg-secondary-dark-bg md:w-56 
+             p-4 pt-6 rounded-2xl
+             '>
+             <button type="button"
+             style={{ color:item.iconColor, backgroundColor:item.iconBg}}
+             
+             >
+   {item.icon}
+
+             </button>
+            </div>
+          ))}
+
+        </div>
       
       </div>
 
