@@ -128,24 +128,28 @@ export const earningData = [
     icon: <BsCurrencyDollar />,
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
+    amount:'40,067',
   },
   {
     title: 'Sales',
     icon: <MdOutlineSupervisorAccount />,
     iconColor: '#7352FF',
     iconBg: '#EDE9FE',
+    amount:'90,067',
   },
   {
     title: 'Customers',
     icon: <BsFillPeopleFill />,
     iconColor: '#FF5C8E',
     iconBg: '#FDE6EC',
+    amount:'78,067',
   },
   {
     title: 'Products',
     icon: <BsShield />,
     iconColor: '#1E4DB7',
     iconBg: '#E2F0FB',
+    amount:'60,067',
   },
 ];
 
