@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/src/data/avatar.jpg')", // 👈 Update this path
+        'hero-pattern': "url('ecommerc.jpg')",
       },
     },
   },
