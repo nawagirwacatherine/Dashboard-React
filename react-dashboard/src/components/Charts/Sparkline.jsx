@@ -1,12 +1,12 @@
 import React from 'react'
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
-import { LineComponent, Inject,} from '@syncfusion/ej2-react-charts';
+import { SparkLineComponent, Inject,} from '@syncfusion/ej2-react-charts';
 
-const  Line = ({ id, height, width, color, data, type, CurrentColor }) => {
+const  SparkLine = ({ id, height, width, color, data, type, CurrentColor }) => {
   return (
     <div>
-      <LineComponent
+      <SparkLineComponent
       id={id}
       height={height}
       width={width}
@@ -31,9 +31,9 @@ const  Line = ({ id, height, width, color, data, type, CurrentColor }) => {
         < Tooltip id="dashboard-tooltip"/>
         
 
-      </LineComponent>
+      </SparkLineComponent>
       </div>
   )
 }
 
-export default Line
+export default SparkLine

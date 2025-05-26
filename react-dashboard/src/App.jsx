@@ -3,7 +3,7 @@ import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
-import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, } from "./pages";
+import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, Line } from "./pages";
 import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {useStateContext} from './contexts/ContextProvider';
