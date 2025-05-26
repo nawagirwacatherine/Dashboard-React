@@ -177,6 +177,52 @@ export const SparklineAreaData = [
 
 
 
+export const stackedCustomSeries = [
+  {
+    dataSource: [
+      { x: 'Jan', y: 111.1 },
+      { x: 'Feb', y: 127.3 },
+      { x: 'Mar', y: 143.4 },
+      { x: 'Apr', y: 159.9 },
+    ],
+    xName: 'x',
+    yName: 'y',
+    name: 'Budget',
+    type: 'StackingColumn',
+    background: 'blue',
+  },
+  {
+    dataSource: [
+      { x: 'Jan', y: 76.8 },
+      { x: 'Feb', y: 99.5 },
+      { x: 'Mar', y: 121.7 },
+      { x: 'Apr', y: 142.6 },
+    ],
+    xName: 'x',
+    yName: 'y',
+    name: 'Expense',
+    type: 'StackingColumn',
+    background: 'red',
+  },
+];
+
+
+export const stackedPrimaryXAxis = {
+  valueType: 'Category',
+  labelIntersectAction: 'Rotate45',
+  majorGridLines: { width: 0 },
+};
+
+export const stackedPrimaryYAxis = {
+  labelFormat: '{value}',
+  lineStyle: { width: 0 },
+  maximum: 200,
+  interval: 50,
+  majorTickLines: { width: 0 },
+  minorTickLines: { width: 0 },
+};
+
+
 // ecomPieChartDat
 
 export  const ecomPieChartDat = [
