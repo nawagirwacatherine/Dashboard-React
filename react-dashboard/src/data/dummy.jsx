@@ -164,107 +164,16 @@ export const earningData = [
 
 
 
-export  const SparklineAreaData = [
-{
-    title:'Dashboard',
-    links: [
-        {
-            name:'ecommerce',
-            icon:< FaCreativeCommonsSampling />,
-        },
-    ]
-},
-
-{
-title: 'pages',
-links:[
-    {
-        name: 'orders',
-        icon: < BsBorderStyle />,
-    },
-
-    {
-     name: 'employees',
-     icon:< BsPeopleFill />,
-    },
-
-    {
-        name:'customers',
-        icon:<RiCustomerService2Line />,
-    },
-],
-},
-
-
-{
-    title:'Apps',
-    links: [
-        {
-            name: 'Kanban',
-            icon:< MdOutlineViewKanban />,
-        },
-        {
-            name: 'calender',
-            icon:< SlCalender />,
-        },
-        {
-            name: 'editor',
-            icon:< SiCkeditor4  />,
-        },
-        {
-            name: 'ColorPicker',
-            icon:< TbColorPicker />,
-        },
-    ],
-},
-
-{
-    title:'charts',
-    links:[
-        {
-            name:'line',
-            icon: < FaLine />
-
-        },
-        {
-            name:'area',
-            icon: < MdOutlineAreaChart />
-
-        },
-        {
-            name:'bar',
-            icon: <  FaBarcode  />
-
-        },
-        {
-            name:'pie',
-            icon: <  BiSolidPieChartAlt />
-
-        },
-        {
-            name:'financial',
-            icon: < GrCurrency  />
-
-        },
-        {
-            name:'colormapping',
-            icon: <  IoColorPalette />
-
-        },
-        {
-            name:'pyramid',
-            icon: < GiGreatPyramid/>
-
-        },
-        {
-            name:'stacked',
-            icon: < IoFileTrayStacked  />
-
-        },
-
-    ]
-}
-]
+export const SparklineAreaData = [
+  { x: 1, y: 3 },
+  { x: 2, y: 5 },
+  { x: 3, y: 2 },
+  { x: 4, y: 8 },
+  { x: 5, y: 6 },
+  { x: 6, y: 7 },
+  { x: 7, y: 5 },
+  { x: 8, y: 9 },
+];
 
 
 
