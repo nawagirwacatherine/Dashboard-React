@@ -14,6 +14,17 @@ const  Line = ({ id, height, width, color, data, type, CurrentColor }) => {
       valueType="Numeric"
       fill={color}
       border={{ color: CurrentColor, width:2}}
+      dataSource= {data}
+      xName="x"
+      yName="y"
+      type={type}
+      tooltipSettings={{
+        visible:true,
+        format:'${x}: data &{y}',
+        tracklineSettings: {
+          visible:true
+        }
+      }}
       >
         < Inject data-tooltip-id="dashboard-tooltip"
             data-tooltip-content="services"/>
