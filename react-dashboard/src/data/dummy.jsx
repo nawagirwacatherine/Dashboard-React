@@ -328,3 +328,72 @@ links:[
 ]
 
 
+// ordersData 
+
+export const ordersData = [
+  {
+    OrderID: 10248,
+    CustomerName: 'Paul Henriot',
+    TotalAmount: 320.00,
+    OrderDate: '2025-05-01',
+    Status: 'Shipped',
+    Location: 'France',
+  },
+  {
+    OrderID: 10249,
+    CustomerName: 'Karin Josephs',
+    TotalAmount: 430.50,
+    OrderDate: '2025-05-02',
+    Status: 'Pending',
+    Location: 'Germany',
+  },
+
+   {
+    OrderID: 10250,
+    CustomerName: 'Nawagirwa Catherine',
+    TotalAmount: 400.50,
+    OrderDate: '2025-05-02',
+    Status: 'Pending',
+    Location: 'Mengo',
+  },
+   {
+    OrderID: 10249,
+    CustomerName: 'Nabulya Jesca',
+    TotalAmount: 490.51,
+    OrderDate: '2025-05-05',
+    Status: 'Pending',
+    Location: 'Luweero',
+  },
+   {
+    OrderID: 10259,
+    CustomerName: 'Nakisitu Samalie',
+    TotalAmount: 450.50,
+    OrderDate: '2025-05-01',
+    Status: 'Pending',
+    Location: 'Muyenga',
+  },
+  
+];
+
+
+//  contextMenuItems
+
+
+export const contextMenuItems = [
+  'AutoFit',
+  'AutoFitAll',
+  'SortAscending',
+  'SortDescending',
+  'Copy',
+  'Edit',
+  'Delete',
+  'Save',
+  'Cancel',
+  'PdfExport',
+  'ExcelExport',
+  'CsvExport',
+  'FirstPage',
+  'LastPage'
+];
+
+
