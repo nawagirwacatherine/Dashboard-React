@@ -396,4 +396,54 @@ export const contextMenuItems = [
   'LastPage'
 ];
 
+// ordersGrid
+
+export const ordersGrid = [
+
+    {
+     headerText: 'Image',
+     template:gridOrderImage,
+     textAlign: 'Center',
+     width: '120',
+    },
+  {
+    field: 'OrderID',
+    headerText: 'Order ID',
+    width: '120',
+    textAlign: 'Right'
+  },
+  {
+    field: 'CustomerName',
+    headerText: 'Customer Name',
+    width: '150',
+    textAlign: 'Left'
+  },
+  {
+    field: 'TotalAmount',
+    headerText: 'Total Amount',
+    format: '$500', 
+    width: '130',
+    textAlign: 'Right'
+  },
+  {
+    field: 'OrderDate',
+    headerText: 'Order Date',
+    format: '2025-05-11', 
+    width: '150',
+    textAlign: 'Right'
+  },
+  {
+    field: 'Status',
+    headerText: 'Status',
+    width: '120',
+    textAlign: 'Center'
+  },
+  {
+    field: 'Location',
+    headerText: 'Location',
+    width: '150',
+    textAlign: 'Left'
+  }
+];
+
 
