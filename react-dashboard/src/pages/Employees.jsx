@@ -1,11 +1,11 @@
 import React from 'react'
-import  CathysCalendar  from './components/Charts/CathysCalendar.jsx'
+// import { Calendar } from "../components/ui/calendar"
 
 const Employees = () => {
   return (
-    <div>
-
-      <CathysCalendar/>
+    <div className='min-h-screen bg-gray-50'>
+     <h1 className='text-2xl font-bold mb-4 p-4 '>Employee Calendar</h1>
+      {/* <Calendar/> */}
     </div>
   )
 }

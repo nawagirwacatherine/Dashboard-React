@@ -1,8 +1,13 @@
 import React from 'react'
+// import { CathysCalendar } from '@/components/Charts/CathysCalendar'
+
 
 const Customers = () => {
   return (
-    <div>Customers</div>
+    <div><p>Customers</p>
+    {/* <CathysCalendar/> */}
+      
+    </div>
   )
 }
 

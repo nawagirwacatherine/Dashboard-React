@@ -20,11 +20,11 @@ const App = () => {
        <div className='fixed right-4 bottom-4' style={{zIndex: '1000'}}>
     
       <button type='button' className='text-3xl p-3 hover:drop-shadow-xl
-      hover:bg-light-gray text-white ' style={{ background:'blue', borderRadius:'50%'}}
+      hover:bg-light-gray text-white ' style={{ background:'green', borderRadius:'50%'}}
        data-tooltip-id="settings-tooltip"
   data-tooltip-content="Settings"
   >
-    <FiSettings className='color-red' /></button>
+    <FiSettings /></button>
 
       <Tooltip id="settings-tooltip" place="top" />
       </div>
