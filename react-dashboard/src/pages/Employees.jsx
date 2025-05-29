@@ -1,8 +1,12 @@
 import React from 'react'
+import  CathysCalendar  from './components/Charts/CathysCalendar.jsx'
 
 const Employees = () => {
   return (
-    <div>Employees</div>
+    <div>
+
+      <CathysCalendar/>
+    </div>
   )
 }
 

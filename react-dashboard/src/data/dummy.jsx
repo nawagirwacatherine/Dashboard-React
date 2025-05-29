@@ -16,6 +16,7 @@ import { GiGreatPyramid } from "react-icons/gi";
 import { IoFileTrayStacked } from "react-icons/io5";
 import { BsCurrencyDollar, BsShield, BsFillPeopleFill } from 'react-icons/bs';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
+import gridOrderImage from "./gridOrderImage";
 
 
 export  const links = [
