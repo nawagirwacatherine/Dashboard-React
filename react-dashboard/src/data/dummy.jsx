@@ -407,51 +407,11 @@ export const contextMenuItems = [
 // ordersGrid
 
 export const ordersGrid = [
-
-    {
-     headerText: 'Image',
-     template:gridOrderImage,
-     textAlign: 'Center',
-     width: '120',
-    },
-  {
-    field: 'OrderID',
-    headerText: 'Order ID',
-    width: '120',
-    textAlign: 'Right'
-  },
-  {
-    field: 'CustomerName',
-    headerText: 'Customer Name',
-    width: '150',
-    textAlign: 'Left'
-  },
-  {
-    field: 'TotalAmount',
-    headerText: 'Total Amount',
-    format: '$500', 
-    width: '130',
-    textAlign: 'Right'
-  },
-  {
-    field: 'OrderDate',
-    headerText: 'Order Date',
-    format: '2025-05-11', 
-    width: '150',
-    textAlign: 'Right'
-  },
-  {
-    field: 'Status',
-    headerText: 'Status',
-    width: '120',
-    textAlign: 'Center'
-  },
-  {
-    field: 'Location',
-    headerText: 'Location',
-    width: '150',
-    textAlign: 'Left'
-  }
+  { field: 'OrderID', headerText: 'Order ID' },
+  { field: 'CustomerName', headerText: 'Customer Name' },
+  { field: 'Status', headerText: 'Status' },
+  { field: 'OrderDate', headerText: 'Order Date' },
+  { field: 'Amount', headerText: 'Amount' },
 ];
 
 
@@ -562,54 +522,6 @@ export const employeesData = [
 
 
 
-// employeesGrid
 
-export const employeesGrid = [
-
-    {
-     headerText: 'Image',
-     template:gridOrderImage,
-     textAlign: 'Center',
-     width: '120',
-    },
-  {
-    field: 'Employee',
-    headerText: 'Employee',
-    width: '120',
-    textAlign: 'Right'
-  },
-  {
-    field: ' Designation',
-    headerText: ' Designation',
-    width: '150',
-    textAlign: 'Left'
-  },
-  {
-    field: 'Country',
-    headerText: 'Country',
-    format: '$500', 
-    width: '130',
-    textAlign: 'Right'
-  },
-  {
-    field: 'HireDate',
-    headerText: 'Hire Date',
-    format: '2025-05-11', 
-    width: '150',
-    textAlign: 'Right'
-  },
-  {
-    field: 'ReportsTo',
-    headerText: 'Reports To',
-    width: '120',
-    textAlign: 'Center'
-  },
-  {
-    field: 'image',
-    headerText: 'image',
-    width: '150',
-    textAlign: 'Left'
-  }
-];
 
 
