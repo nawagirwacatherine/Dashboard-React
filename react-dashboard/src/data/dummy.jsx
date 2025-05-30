@@ -17,6 +17,13 @@ import { IoFileTrayStacked } from "react-icons/io5";
 import { BsCurrencyDollar, BsShield, BsFillPeopleFill } from 'react-icons/bs';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
 import gridOrderImage from "./gridOrderImage";
+import avatar1 from '../assets/avatar1.jpg';
+import avatar2 from '../assets/avatar2.jpg';
+import avatar3 from '../assets/avatar3.jpg';
+import avatar4 from '../assets/avatar4.jpg';
+import avatar5 from '../assets/avatar5.jpg';
+import avatar6 from '../assets/avatar6.jpg';
+import avatar7 from '../assets/avatar7.jpg';
 
 
 export  const links = [
@@ -442,6 +449,164 @@ export const ordersGrid = [
   {
     field: 'Location',
     headerText: 'Location',
+    width: '150',
+    textAlign: 'Left'
+  }
+];
+
+
+
+// employeesData 
+
+export const employeesData = [
+  {
+    Employee: 'Henriot',
+    Designation: 'Sales Representative',
+    Country: 'Germany',
+    HireDate: '01/05/2020',
+    ReportsTo: 'Cathy',
+     image: avatar1,
+   
+  },
+  {
+   Employee: 'Jackson ',
+    Designation: 'Marketing head',
+    Country: 'Norway',
+    HireDate: '02/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar2,
+  },
+
+   {
+    Employee: 'Brendah',
+    Designation: 'HR',
+    Country: 'USA',
+    HireDate: '06/05/2020',
+    ReportsTo: 'Cathy',
+     image: avatar3,
+  },
+   {
+    Employee: 'Ian',
+    Designation: 'Marketing head',
+    Country: 'Germany',
+    HireDate: '01/05/2020',
+    ReportsTo: 'Cathy',
+     image: avatar4,
+  },
+   {
+   Employee: ' Mark Juliet',
+    Designation: 'Sales Representative',
+    Country: 'Germany',
+    HireDate: '01/03/2023',
+    ReportsTo: 'Cathy',
+     image: avatar5,
+  },
+    {
+   Employee: ' John Anthony',
+    Designation: 'HR',
+    Country: 'FRANCE',
+    HireDate: '07/08/2022',
+    ReportsTo: 'Cathy',
+     image: avatar6,
+  },
+    {
+   Employee: ' Owen blue',
+    Designation: 'Marketing Head',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar7,
+  },
+    {
+   Employee: ' Trinity Green',
+    Designation: 'Marketing Representative',
+    Country: 'USA',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar1,
+  },
+    {
+   Employee: ' Bruno Tall',
+    Designation: 'Sales Representative',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar2,
+  },
+    {
+   Employee: ' Mark Juliet',
+    Designation: 'Sales Representative',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar1,
+  },
+    {
+   Employee: ' Amber Rose',
+    Designation: 'HR',
+    Country: 'USA',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar2,
+  },
+    {
+   Employee: ' Mike Owen',
+    Designation: 'Sales Representative',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+    ReportsTo: 'Cathy',
+     image: avatar3,
+  },
+  
+];
+
+
+
+// employeesGrid
+
+export const employeesGrid = [
+
+    {
+     headerText: 'Image',
+     template:gridOrderImage,
+     textAlign: 'Center',
+     width: '120',
+    },
+  {
+    field: 'Employee',
+    headerText: 'Employee',
+    width: '120',
+    textAlign: 'Right'
+  },
+  {
+    field: ' Designation',
+    headerText: ' Designation',
+    width: '150',
+    textAlign: 'Left'
+  },
+  {
+    field: 'Country',
+    headerText: 'Country',
+    format: '$500', 
+    width: '130',
+    textAlign: 'Right'
+  },
+  {
+    field: 'HireDate',
+    headerText: 'Hire Date',
+    format: '2025-05-11', 
+    width: '150',
+    textAlign: 'Right'
+  },
+  {
+    field: 'ReportsTo',
+    headerText: 'Reports To',
+    width: '120',
+    textAlign: 'Center'
+  },
+  {
+    field: 'image',
+    headerText: 'image',
     width: '150',
     textAlign: 'Left'
   }

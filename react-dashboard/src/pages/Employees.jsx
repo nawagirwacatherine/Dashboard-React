@@ -1,16 +1,4 @@
-// import React from 'react'
 
-
-// const Employees = () => {
-//   return (
-//     <div className='min-h-screen bg-gray-50'>
-//      <h1 className='text-2xl font-bold mb-4 p-4 '>Employee Calendar</h1>
-      
-//     </div>
-//   )
-// }
-
-// export default Employees
 
 
 
@@ -20,18 +8,12 @@ import {
   GridComponent,
   ColumnsDirective,
   ColumnDirective,
-  Resize,
-  Sort,
-  ContextMenu,
-  Filter,
   Page,
-  ExcelExport,
-  PdfExport,
-  Edit,
+  Search,
   Inject
 } from '@syncfusion/ej2-react-grids';
 
-import { ordersData, contextMenuItems, ordersGrid } from '../data/dummy';
+import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
 
 const Employees = () => {
@@ -41,20 +23,17 @@ const Employees = () => {
 
       <GridComponent
         id='gridcomp'
-        dataSource={ordersData}
+        dataSource={employeesData}
         allowPaging
         allowSorting
-        contextMenuItems={contextMenuItems}
-        allowExcelExport
-        allowPdfExport
         editSettings={{ allowEditing: true, allowDeleting: true, allowAdding: true }}
       >
         <ColumnsDirective>
-          {ordersGrid.map((item, index) => (
+          {employeesGrid.map((item, index) => (
             <ColumnDirective key={index} {...item} />
           ))}
         </ColumnsDirective>
-        <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport]} />
+        <Inject services={[Page,Search]} />
       </GridComponent>
     </div>
   );
