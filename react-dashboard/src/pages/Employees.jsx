@@ -26,7 +26,6 @@ const Employees = () => {
         dataSource={employeesData}
         allowPaging
         allowSorting
-        editSettings={{ allowEditing: true, allowDeleting: true, allowAdding: true }}
       >
         <ColumnsDirective>
           {employeesGrid.map((item, index) => (
