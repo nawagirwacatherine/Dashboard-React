@@ -1,14 +1,15 @@
-import React from 'react'
-// import { CathysCalendar } from '@/components/Charts/CathysCalendar'
 
+import React from 'react';
+import CustomersTable from '../data/EmployeesTable';
+import { Header } from '../components';
 
 const Customers = () => {
   return (
-    <div><p>Customers</p>
-    {/* <CathysCalendar/> */}
-      
+    <div className="m-4 md:m-10">
+      <Header category="Page" title="Customers" />
+      <CustomersTable/>
     </div>
-  )
-}
+  );
+};
 
-export default Customers
+export default Customers;

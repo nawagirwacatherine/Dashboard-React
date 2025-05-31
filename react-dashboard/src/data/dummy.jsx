@@ -521,6 +521,139 @@ export const employeesData = [
 ];
 
 
+// customersData 
+
+export const customersData = [
+  {
+    customer: 'Henriot',
+    Country: 'Germany',
+    HireDate: '01/05/2020',
+     image: avatar1,
+   
+  },
+  {
+   customer: 'Jackson ',
+    Country: 'Norway',
+    HireDate: '02/03/2020',
+     image: avatar2,
+  },
+
+   {
+    customer: 'Brendah',
+    Country: 'USA',
+    HireDate: '06/05/2020',
+     image: avatar3,
+  },
+   {
+    customer: 'Ian',
+    Country: 'Germany',
+    HireDate: '01/05/2020',
+     image: avatar4,
+  },
+   {
+  customer: ' Mark Juliet',
+    Country: 'Germany',
+    HireDate: '01/03/2023',
+     image: avatar5,
+  },
+    {
+   customer: ' John Anthony',
+    Country: 'FRANCE',
+    HireDate: '07/08/2022',
+     image: avatar6,
+  },
+    {
+   customer: ' Owen blue',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+     image: avatar7,
+  },
+    {
+   customer: ' Trinity Green',
+    Country: 'USA',
+    HireDate: '01/03/2020',
+     image: avatar1,
+  },
+    {
+   customer: ' Bruno Tall',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+     image: avatar2,
+  },
+    {
+   customer: ' Mark Juliet',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+     image: avatar1,
+  },
+    {
+   customer: ' Amber Rose',
+    Country: 'USA',
+    HireDate: '01/03/2020',
+     image: avatar2,
+  },
+    {
+  customer: ' Mike Owen',
+    Country: 'Germany',
+    HireDate: '01/03/2020',
+     image: avatar3,
+  },
+  
+];
+
+
+export const scheduleData = [
+  {
+    id: 1,
+    title: 'Team Meeting',
+    StartTime: new Date(2025, 4, 31, 10, 0), 
+    EndTime: new Date(2025, 4, 31, 11, 0),
+  },
+  {
+    id: 2,
+    title: 'Project Review',
+    StartTime: new Date(2025, 4, 31, 13, 0),
+    EndTime: new Date(2025, 4, 31, 14, 30),
+  },
+  {
+    id: 3,
+    title: 'Client Call',
+    StartTime: new Date(2025, 5, 1, 9, 0),
+    EndTime: new Date(2025, 5, 1, 10, 0),
+  },
+  {
+    id: 4,
+    title: 'field Meeting',
+    StartTime: new Date(2025, 4, 31, 10, 0), 
+    EndTime: new Date(2025, 4, 31, 11, 0),
+  },
+  {
+    id: 5,
+    title: 'picture time',
+    StartTime: new Date(2025, 8, 31, 10, 0), 
+    EndTime: new Date(2025, 4, 31, 10, 0),
+  },
+  {
+    id: 6,
+    title: 'meeting with leaders',
+    StartTime: new Date(2025, 9, 31, 10, 0), 
+    EndTime: new Date(2025, 4, 1, 1, 0),
+  },
+  {
+    id: 7,
+    title: 'board Meeting',
+    StartTime: new Date(2025, 4, 3, 1, 0), 
+    EndTime: new Date(2025, 4, 1, 11, 0),
+  },
+  {
+    id: 8,
+    title: 'one on one Meeting',
+    StartTime: new Date(2025, 8, 1, 10, 0), 
+    EndTime: new Date(2025, 4, 11, 11, 0),
+  },
+];
+
+
 
 
 
