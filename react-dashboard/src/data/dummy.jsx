@@ -679,6 +679,72 @@ export const scheduleData = [
 ];
 
 
+export const KanbanData = [
+ {
+
+ },
+];
+
+
+export const KanbanGrid = [
+
+   {
+   headerText: 'To Do',
+   keyField: 'Open',
+   allowToggle: true
+  },
+
+  {
+   headerText: 'In Progress',
+   keyField: 'InProgress',
+   allowToggle: true
+  },
+
+  {
+   headerText: 'Testing',
+   keyField: 'Testing',
+   allowToggle: true,
+   isExpanded: false,
+  },
+
+  {
+   headerText: 'To Do',
+   keyField: 'Open',
+   allowToggle: true
+  },
+
+  {
+   headerText: 'Done',
+   keyField: 'Close',
+   allowToggle: true
+  },
+
+];
+
+
+ export const initialData = [
+  {
+    id: 'todo',
+    title: 'To Do',
+    tasks: [
+      { id: '1', title: 'Design login page' },
+      { id: '2', title: 'Setup API routes' },
+    ],
+  },
+  {
+    id: 'inprogress',
+    title: 'In Progress',
+    tasks: [
+      { id: '3', title: 'Build Auth component' },
+    ],
+  },
+  {
+    id: 'done',
+    title: 'Done',
+    tasks: [],
+  },
+];
+
 
 
 

@@ -1,9 +1,18 @@
-import React from 'react'
 
-const Editor = () => {
+import React from 'react'
+import { useEditor, EditorContent } from '@tiptap/react'
+import StarterKit from '@tiptap/starter-kit'
+
+export default function Editor() {
+  const editor = useEditor({
+    extensions: [StarterKit],
+    content: '<p>Write something cool...</p>',
+  })
+
   return (
-    <div>Editor</div>
+    <div>
+      <h2>Editor</h2>
+      <EditorContent editor={editor} />
+    </div>
   )
 }
-
-export default Editor
