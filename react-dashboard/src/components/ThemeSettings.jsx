@@ -18,9 +18,7 @@ const ThemeSettings = ({ open, onClose }) => {
         <DialogHeader>
           <DialogTitle className="flex justify-between items-center">
             <span>Theme Settings</span>
-            <Button variant="ghost" size="icon" onClick={onClose}>
-              <MdOutlineCancel className="h-5 w-5" />
-            </Button>
+
           </DialogTitle>
         </DialogHeader>
 
