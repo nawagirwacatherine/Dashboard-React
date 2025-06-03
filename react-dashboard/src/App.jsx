@@ -3,14 +3,16 @@ import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
-import { Orders, Stacked, Pyramid, Area, Bar, Pie, Financial,ColorMapping, Line } from "./pages";
+import { Orders, Stacked, Pyramid, AreaChartCard, Bar, Pie, Financial,ColorMapping, Line } from "./pages";
 import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {useStateContext} from './contexts/ContextProvider';
+import { useState } from 'react';
 
 const App = () => {
 
   const {activeMenu} = useStateContext();
+  const [themeSettingsOpen, setThemeSettingsOpen] = useState(false);
   return (
     <>
     
@@ -23,6 +25,7 @@ const App = () => {
       hover:bg-light-gray text-white ' style={{ background:'green', borderRadius:'50%'}}
        data-tooltip-id="settings-tooltip"
   data-tooltip-content="Settings"
+  onClick={() => setThemeSettingsOpen(true)}
   >
     <FiSettings /></button>
 
@@ -46,6 +49,10 @@ const App = () => {
         </div>
 
 <div>     
+
+
+  <ThemeSettings open={themeSettingsOpen} onClose={ () =>setThemeSettingsOpen(false)}/>
+
 <Routes>
 
 
@@ -74,7 +81,7 @@ const App = () => {
 
    {/* charts */}
     <Route path="/line" element={<Line/>}/>
-   <Route path="/area" element={<Area/>} />
+   <Route path="/areachartcard" element={<AreaChartCard/>} />
    <Route path="/bar" element={<Bar/>} />
    <Route path="/pie" element={<Pie/>}/>
    <Route path="/financial" element={<Financial/>} />

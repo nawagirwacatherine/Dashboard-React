@@ -123,4 +123,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
 }
+
+}
+

@@ -11,6 +11,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('ecommerc.jpg')",
+        darkMode: "class",
       },
     },
   },

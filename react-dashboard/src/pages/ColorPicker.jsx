@@ -1,34 +1,19 @@
 
-// import React from 'react'
-// import {Header} from '../components'
-
-// const ColorPicker = () => {
-//   return (
-//     <div className='m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl'>
-//       <Header category="App" title="Color Picker" />
-
-//       <div className='text-center'>
-//         <div id="preview" />
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default ColorPicker
-
-
-// components/ui/color-picker.jsx
 import React, { useState } from "react";
 import { HexColorPicker } from "react-colorful";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
+ import {Header} from '../components'
+
 const ColorPicker = () => {
   const [color, setColor] = useState("#aabbcc");
 
   return (
-    <div className="flex flex-col items-center gap-4">
+    <div className='m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl'>
+      <Header category="App" title="Color Picker" />
+
       <Popover>
         <PopoverTrigger asChild>
           <Button
