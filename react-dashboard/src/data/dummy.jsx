@@ -16,7 +16,6 @@ import { GiGreatPyramid } from "react-icons/gi";
 import { IoFileTrayStacked } from "react-icons/io5";
 import { BsCurrencyDollar, BsShield, BsFillPeopleFill } from 'react-icons/bs';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
-import gridOrderImage from "./gridOrderImage";
 import avatar1 from '../assets/avatar1.jpg';
 import avatar2 from '../assets/avatar2.jpg';
 import avatar3 from '../assets/avatar3.jpg';
@@ -24,6 +23,12 @@ import avatar4 from '../assets/avatar4.jpg';
 import avatar5 from '../assets/avatar5.jpg';
 import avatar6 from '../assets/avatar6.jpg';
 import avatar7 from '../assets/avatar7.jpg';
+import customer1 from '../assets/customer1.jpg';
+import customer2 from '../assets/customer2.jpg';
+import customer3 from '../assets/customer3.png';
+import customer4 from '../assets/customer4.jpg';
+import customer5 from '../assets/customer5.jpg';
+
 
 
 export  const links = [
@@ -340,6 +345,7 @@ links:[
 
 export const ordersData = [
   {
+    image:avatar1,
     OrderID: 10248,
     CustomerName: 'Paul Henriot',
     TotalAmount: 320.00,
@@ -348,6 +354,7 @@ export const ordersData = [
     Location: 'France',
   },
   {
+    image:avatar3,
     OrderID: 10249,
     CustomerName: 'Karin Josephs',
     TotalAmount: 430.50,
@@ -357,6 +364,7 @@ export const ordersData = [
   },
 
    {
+    image:customer1,
     OrderID: 10250,
     CustomerName: 'Nawagirwa Catherine',
     TotalAmount: 400.50,
@@ -365,6 +373,7 @@ export const ordersData = [
     Location: 'Mengo',
   },
    {
+    image:avatar7,
     OrderID: 10249,
     CustomerName: 'Nabulya Jesca',
     TotalAmount: 490.51,
@@ -373,6 +382,7 @@ export const ordersData = [
     Location: 'Luweero',
   },
    {
+    image:customer4,
     OrderID: 10259,
     CustomerName: 'Nakisitu Samalie',
     TotalAmount: 450.50,
@@ -407,11 +417,12 @@ export const contextMenuItems = [
 // ordersGrid
 
 export const ordersGrid = [
+  { field:'image', headerText:"image"},
   { field: 'OrderID', headerText: 'Order ID' },
   { field: 'CustomerName', headerText: 'Customer Name' },
   { field: 'Status', headerText: 'Status' },
   { field: 'OrderDate', headerText: 'Order Date' },
-  { field: 'Amount', headerText: 'Amount' },
+  { field: ' TotalAmount', headerText: 'Amount' },
 ];
 
 
@@ -525,78 +536,78 @@ export const employeesData = [
 
 export const customersData = [
   {
-    customer: 'Henriot',
+    Customer: 'Henriot',
     Country: 'Germany',
-    HireDate: '01/05/2020',
-     image: avatar1,
+    OrderDate: '01/05/2020',
+     image: customer1,
    
   },
   {
-   customer: 'Jackson ',
+   Customer: 'Jackson ',
     Country: 'Norway',
-    HireDate: '02/03/2020',
-     image: avatar2,
+    OrderDate: '02/03/2020',
+     image: customer2,
   },
 
    {
-    customer: 'Brendah',
+    Customer: 'Brendah',
     Country: 'USA',
-    HireDate: '06/05/2020',
-     image: avatar3,
+   OrderDate: '06/05/2020',
+     image: customer3,
   },
    {
-    customer: 'Ian',
+    Customer: 'Ian',
     Country: 'Germany',
-    HireDate: '01/05/2020',
-     image: avatar4,
+    OrderDate: '01/05/2020',
+     image: customer4,
   },
    {
-  customer: ' Mark Juliet',
+  Customer: ' Mark Juliet',
     Country: 'Germany',
-    HireDate: '01/03/2023',
-     image: avatar5,
+    OrderDate: '01/03/2023',
+     image: customer5,
   },
     {
-   customer: ' John Anthony',
+   Customer: ' John Anthony',
     Country: 'FRANCE',
-    HireDate: '07/08/2022',
-     image: avatar6,
+    OrderDate: '07/08/2022',
+     image: customer1,
   },
     {
-   customer: ' Owen blue',
+   Customer: ' Owen blue',
     Country: 'Germany',
-    HireDate: '01/03/2020',
-     image: avatar7,
+   OrderDate: '01/03/2020',
+     image: customer2,
   },
     {
-   customer: ' Trinity Green',
+   Customer: ' Trinity Green',
     Country: 'USA',
-    HireDate: '01/03/2020',
-     image: avatar1,
+    OrderDate: '01/03/2020',
+     image: customer3,
   },
     {
-   customer: ' Bruno Tall',
+   Customer: ' Bruno Tall',
     Country: 'Germany',
-    HireDate: '01/03/2020',
-     image: avatar2,
+    OrderDate: '01/03/2020',
+     image: customer4,
   },
     {
-   customer: ' Mark Juliet',
+   Customer: ' Mark Juliet',
     Country: 'Germany',
-    HireDate: '01/03/2020',
-     image: avatar1,
+    OrderDate: '01/03/2020',
+     image: customer5,
   },
     {
-   customer: ' Amber Rose',
+   Customer: ' Amber Rose',
     Country: 'USA',
-    HireDate: '01/03/2020',
-     image: avatar2,
+    OrderDate: '01/03/2020',
+     image: customer1,
   },
     {
-  customer: ' Mike Owen',
+  Customer: ' Mike Owen',
     Country: 'Germany',
-    HireDate: '01/03/2020',
-     image: avatar3,
+    OrderDate: '01/03/2020',
+     image: customer2,
   },
   
 ];

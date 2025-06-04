@@ -1,6 +1,6 @@
 
 import React from 'react';
-import CustomersTable from '../data/EmployeesTable';
+import CustomersTable from '../data/CustomersTable';
 import { Header } from '../components';
 
 const Customers = () => {

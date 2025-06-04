@@ -36,7 +36,7 @@ md:hover:overflow-auto pb-10'>
            onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} 
            className='text-xl rounded-full p-3 hover:bg-light-gray mt-4  hidden md:block'
            data-tooltip-id="dashboard-tooltip"
-            data-tooltip-content="Menu"> <MdOutlineCancel/></button>
+            data-tooltip-content="Menu"> <MdOutlineCancel className='dark:bg-secondary-dark-bg'/></button>
           <Tooltip id="dashboard-tooltip" />
         </div>
 

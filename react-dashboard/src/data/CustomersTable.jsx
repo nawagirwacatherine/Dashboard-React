@@ -16,7 +16,7 @@ const CustomersTable = () => {
             <TableHead>Image</TableHead>
             <TableHead>Name</TableHead>
             <TableHead>Country</TableHead>
-            <TableHead>Hire Date</TableHead>
+            <TableHead>Order Date</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -24,13 +24,13 @@ const CustomersTable = () => {
             <TableRow key={index}>
               <TableCell>
                 <Avatar>
-                  <AvatarImage src={customer.image} alt={customer.Employee} />
-                  <AvatarFallback>{customer.Employee[0]}</AvatarFallback>
+                  <AvatarImage src={customer.image} alt={customer.Customer} />
+                  <AvatarFallback>{customer.Customer[0]}</AvatarFallback>
                 </Avatar>
               </TableCell>
-              <TableCell>{customer.Employee}</TableCell>
+              <TableCell>{customer.Customer}</TableCell>
               <TableCell>{customer.Country}</TableCell>
-              <TableCell>{customer.HireDate}</TableCell>
+              <TableCell>{customer.OrderDate}</TableCell>
             </TableRow>
           ))}
         </TableBody>
