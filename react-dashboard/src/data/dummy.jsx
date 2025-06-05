@@ -24,7 +24,6 @@ import avatar5 from '../assets/avatar5.jpg';
 import avatar6 from '../assets/avatar6.jpg';
 import avatar7 from '../assets/avatar7.jpg';
 import customer1 from '../assets/customer1.jpg';
-import customer2 from '../assets/customer2.jpg';
 import customer3 from '../assets/customer3.png';
 import customer4 from '../assets/customer4.jpg';
 import customer5 from '../assets/customer5.jpg';
@@ -546,7 +545,7 @@ export const customersData = [
    Customer: 'Jackson ',
     Country: 'Norway',
     OrderDate: '02/03/2020',
-     image: customer2,
+     image: avatar5,
   },
 
    {
@@ -577,7 +576,7 @@ export const customersData = [
    Customer: ' Owen blue',
     Country: 'Germany',
    OrderDate: '01/03/2020',
-     image: customer2,
+     image: avatar5,
   },
     {
    Customer: ' Trinity Green',
@@ -607,7 +606,7 @@ export const customersData = [
   Customer: ' Mike Owen',
     Country: 'Germany',
     OrderDate: '01/03/2020',
-     image: customer2,
+     image: avatar5,
   },
   
 ];
