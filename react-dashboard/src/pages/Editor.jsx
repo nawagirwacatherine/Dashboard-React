@@ -61,7 +61,7 @@ const Editor = () => {
         
         <EditorContent
           editor={editor}
-          className="prose min-h-[200px] p-4 border rounded-md bg-white focus:outline-none"
+          className=" prose min-h-[200px] p-4 border rounded-md bg-white focus:outline-none"
         />
 
         <Button className="w-full mt-4" onClick={handleSubmit}>

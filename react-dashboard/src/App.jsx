@@ -3,7 +3,7 @@ import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {FiSettings  } from "react-icons/fi";
-import { Orders, Stacked, Pyramid, AreaChartCard, Bar, Pie, Financial,ColorMapping, Line } from "./pages";
+import { Orders, Stacked, Pyramid, AreaChartCard, Bar, PieChartCard, Financial,ColorMapping, Line } from "./pages";
 import {Ecommerce, Calender, ColorPicker, Customers, Editor, Employees, Kanban} from './pages';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import {useStateContext} from './contexts/ContextProvider';
@@ -83,7 +83,7 @@ const App = () => {
     <Route path="/line" element={<Line/>}/>
    <Route path="/areachartcard" element={<AreaChartCard/>} />
    <Route path="/bar" element={<Bar/>} />
-   <Route path="/pie" element={<Pie/>}/>
+   <Route path="/piechartcard" element={<PieChartCard/>}/>
    <Route path="/financial" element={<Financial/>} />
    <Route path="/colormapping" element={<ColorMapping/>} />
    <Route path="/pyramid" element={<Pyramid/>} />

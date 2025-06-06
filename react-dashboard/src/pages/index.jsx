@@ -9,7 +9,7 @@ export { default as ColorPicker } from './ColorPicker';
 export { default as Calender } from './Calender';
 export { default as AreaChartCard} from './Charts/AreaChartCard';
 export { default as Bar } from './Charts/Bar';
-export { default as Pie } from './Charts/Pie';
+export { default as PieChartCard } from './Charts/PieChartCard';
 export { default as Stacked } from './Charts/Stacked';
 export { default as ColorMapping } from './Charts/ColorMapping';
 export { default as Financial } from './Charts/Financial';
