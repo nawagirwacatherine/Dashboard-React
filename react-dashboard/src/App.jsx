@@ -81,9 +81,9 @@ const App = () => {
 
    {/* charts */}
     <Route path="/line" element={<Line/>}/>
-   <Route path="/areachartcard" element={<AreaChartCard/>} />
+   <Route path="/area" element={<AreaChartCard/>} />
    <Route path="/bar" element={<Bar/>} />
-   <Route path="/piechartcard" element={<PieChartCard/>}/>
+   <Route path="/pie" element={<PieChartCard/>}/>
    <Route path="/financial" element={<Financial/>} />
    <Route path="/colormapping" element={<ColorMapping/>} />
    <Route path="/pyramid" element={<Pyramid/>} />

@@ -756,6 +756,223 @@ export const KanbanGrid = [
 ];
 
 
+// chats data
+
+export const chatsData = [
+   {
+    Customer: 'Ian',
+    Country: 'Germany',
+    OrderDate: '01/05/2020',
+     image: customer4,
+  },
+   {
+  Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2023',
+     image: customer5,
+  },
+    {
+   Customer: ' John Anthony',
+    Country: 'FRANCE',
+    OrderDate: '07/08/2022',
+     image: customer1,
+  },
+    {
+   Customer: ' Owen blue',
+    Country: 'Germany',
+   OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+    {
+   Customer: ' Trinity Green',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer3,
+  },
+    {
+   Customer: ' Bruno Tall',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer4,
+  },
+    {
+   Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer5,
+  },
+    {
+   Customer: ' Amber Rose',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer1,
+  },
+    {
+  Customer: ' Mike Owen',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+  
+];
+
+
+
+// carts data
+
+export const cartsData = [
+   {
+    product: 'butterscotch ice-cream',
+    flavor: 'milk',
+    price: '$250',
+     
+  },
+   {
+   product: 'supreme fresh tomato',
+    flavor: 'vegetable item',
+    price: '$450',
+  },
+    {
+    Product: 'Red color candy',
+    Flavor: 'food item',
+    Price: '$350',
+  },
+    {
+    Product: 'jam red',
+    Flavor: 'milk item',
+    Price: '$250',
+  },
+    {
+   product: ' ice-cream',
+    flavor: 'milk',
+    price: '$150',
+  },
+  
+];
+
+
+// notification data
+
+export const notificationsData = [
+   {
+    Customer: 'Ian',
+    Country: 'Germany',
+    OrderDate: '01/05/2020',
+     image: customer4,
+  },
+   {
+  Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2023',
+     image: customer5,
+  },
+    {
+   Customer: ' John Anthony',
+    Country: 'FRANCE',
+    OrderDate: '07/08/2022',
+     image: customer1,
+  },
+    {
+   Customer: ' Owen blue',
+    Country: 'Germany',
+   OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+    {
+   Customer: ' Trinity Green',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer3,
+  },
+    {
+   Customer: ' Bruno Tall',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer4,
+  },
+    {
+   Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer5,
+  },
+    {
+   Customer: ' Amber Rose',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer1,
+  },
+    {
+  Customer: ' Mike Owen',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+  
+];
+
+
+// userProfilesData data
+
+export const userProfilesData = [
+   {
+    Customer: 'Ian',
+    Country: 'Germany',
+    OrderDate: '01/05/2020',
+     image: customer4,
+  },
+   {
+  Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2023',
+     image: customer5,
+  },
+    {
+   Customer: ' John Anthony',
+    Country: 'FRANCE',
+    OrderDate: '07/08/2022',
+     image: customer1,
+  },
+    {
+   Customer: ' Owen blue',
+    Country: 'Germany',
+   OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+    {
+   Customer: ' Trinity Green',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer3,
+  },
+    {
+   Customer: ' Bruno Tall',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer4,
+  },
+    {
+   Customer: ' Mark Juliet',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: customer5,
+  },
+    {
+   Customer: ' Amber Rose',
+    Country: 'USA',
+    OrderDate: '01/03/2020',
+     image: customer1,
+  },
+    {
+  Customer: ' Mike Owen',
+    Country: 'Germany',
+    OrderDate: '01/03/2020',
+     image: avatar5,
+  },
+  
+];
+
+
 
 
 

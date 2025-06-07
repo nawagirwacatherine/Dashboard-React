@@ -19,7 +19,6 @@ const options = {
   pieHole: 0.4,
   is3D: false,
   pieSliceText: 'label',
-  // Use pie chart type to mimic pyramid visually; Google Charts doesn’t have a dedicated pyramid chart type
 };
 
 const PyramidChartCard = () => (
