@@ -21,7 +21,7 @@ const Chat = () => {
         ))}
       </div>
 
-      <MdOutlineCancel color="red-400"/>
+      <MdOutlineCancel className="bg-red-400 rounded-2xl"/>
     </div>
   );
 };

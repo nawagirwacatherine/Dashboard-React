@@ -19,7 +19,7 @@ const Notification = () => {
         ))}
       </ul>
       </div>
-            <MdOutlineCancel className="red-400"/>
+            <MdOutlineCancel className="bg-red-400 rounded-2xl"/>
     </div>
   );
 };

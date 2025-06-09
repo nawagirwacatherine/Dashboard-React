@@ -29,7 +29,7 @@ const CartsTable = () => {
         </TableBody>
       </Table>
       </div>
-      <MdOutlineCancel/>
+      <MdOutlineCancel className="bg-red-400 rounded-2xl"/>
     </div>
   );
 };
