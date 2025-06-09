@@ -15,7 +15,7 @@ const UserProfile = () => {
       <div className="text-sm text-gray-700 space-y-1">
         <p>Email: katie@example.com</p>
         <p>Phone: +1 234 567 8901</p>
-        <button className="mt-3 px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700">
+        <button className="mt-3 px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-400">
           Logout
         </button>
       </div>

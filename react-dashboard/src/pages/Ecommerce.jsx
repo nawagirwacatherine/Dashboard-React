@@ -11,7 +11,7 @@ import { useStateContext } from '../contexts/ContextProvider';
 
 const Ecommerce = () => {
   return (
-    <div className='mt-12'>
+    <div className="m-4 md:m-10">
       <div className='flex flex-wrap lg:flex-nowrap justify-center'>
         <div className='bg-white 
         dark:text-gray-200

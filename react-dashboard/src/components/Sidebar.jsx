@@ -30,7 +30,7 @@ md:hover:overflow-auto pb-10'>
             className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-green text-slate-900'
           
           >
-            <SiShopware className= 'text-color-red' /> <span>Shoppy</span>
+            <SiShopware className= 'text-orange-900' /> <span>Shoppy</span>
           </Link>
           <button type='button'
            onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} 
@@ -51,6 +51,7 @@ md:hover:overflow-auto pb-10'>
                 onClick= {handleCloseSideBar}
                 className={({isActive}) => 
                   isActive ? activeLink:normalLink}
+                
                 >
                   {link.icon}
                   <span  className='capitalize'>

@@ -8,7 +8,7 @@ import { cartsData } from "../data/dummy";
 const CartsTable = () => {
   return (
     <div className="p-6 bg-white rounded-2xl shadow-sm">
-      <h2 className="text-2xl font-semibold mb-4">Customers</h2>
+      <h2 className="text-2xl font-semibold mb-4">Orders</h2>
       <Table>
         <TableHeader>
           <TableRow>
