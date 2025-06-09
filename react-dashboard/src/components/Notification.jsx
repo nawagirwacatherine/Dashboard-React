@@ -1,5 +1,6 @@
 
 import React from "react";
+import { MdOutlineCancel } from 'react-icons/md';
 
 const Notification = () => {
   const notifications = [
@@ -9,13 +10,16 @@ const Notification = () => {
   ];
 
   return (
-    <div className="absolute right-5 top-16 bg-white p-6 rounded-xl shadow-lg w-80 z-50">
-      <h3 className="text-lg font-semibold mb-4 text-shadow-black">Notifications</h3>
+    <div className=" flex right-5 top-16 bg-white p-6 rounded-xl shadow-lg w-80 z-50">
+      <div>
+      <h3 className="text-lg font-semibold mb-4 text-shadow-black">Notifications</h3> 
       <ul className="space-y-2 text-sm">
         {notifications.map((note) => (
           <li key={note.id} className="border-b pb-2 ">{note.message}</li>
         ))}
       </ul>
+      </div>
+            <MdOutlineCancel className="red-400"/>
     </div>
   );
 };

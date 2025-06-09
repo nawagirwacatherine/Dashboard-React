@@ -1,13 +1,14 @@
 
 import React from "react";
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
-
+import { MdOutlineCancel } from 'react-icons/md';
 
 import { cartsData } from "../data/dummy"; 
 
 const CartsTable = () => {
   return (
-    <div className="p-6 bg-white rounded-2xl shadow-sm">
+    < div className="p-6 flex bg-white rounded-2xl shadow-sm">
+      <div>
       <h2 className="text-2xl font-semibold mb-4">Orders</h2>
       <Table>
         <TableHeader>
@@ -27,6 +28,8 @@ const CartsTable = () => {
           ))}
         </TableBody>
       </Table>
+      </div>
+      <MdOutlineCancel/>
     </div>
   );
 };

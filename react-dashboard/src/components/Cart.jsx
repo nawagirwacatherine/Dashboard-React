@@ -1,4 +1,5 @@
 import React from 'react'
+
 import CartsTable from '../data/CartsTable';
 
 const Cart = () => {

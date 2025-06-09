@@ -1,5 +1,6 @@
 
 import React from "react";
+import { MdOutlineCancel } from 'react-icons/md';
 
 const Chat = () => {
   const messages = [
@@ -9,15 +10,18 @@ const Chat = () => {
   ];
 
   return (
-    <div className="absolute right-5 top-16 bg-white p-4 rounded-xl shadow-lg w-80 z-50">
-      <h3 className="text-lg font-semibold mb-4">Messages</h3>
+    <div className=" flex absolute right-5 top-16 bg-white p-4 rounded-xl shadow-lg w-80 z-50">
+     
       <div className="space-y-3 max-h-60 overflow-y-auto">
+         <h3 className="text-lg font-semibold mb-4">Messages</h3>
         {messages.map((msg) => (
           <div key={msg.id} className="text-sm">
             <p><strong>{msg.sender}:</strong> {msg.content}</p>
           </div>
         ))}
       </div>
+
+      <MdOutlineCancel color="red-400"/>
     </div>
   );
 };
