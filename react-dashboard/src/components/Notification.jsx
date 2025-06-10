@@ -2,7 +2,7 @@
 import React from "react";
 import { MdOutlineCancel } from 'react-icons/md';
 
-const Notification = () => {
+const Notification = ({onClose}) => {
   const notifications = [
     { id: 1, message: "New order received!" },
     { id: 2, message: "Server backup completed." },
@@ -19,7 +19,7 @@ const Notification = () => {
         ))}
       </ul>
       </div>
-            <MdOutlineCancel className="bg-red-400 rounded-2xl"/>
+            <MdOutlineCancel className="bg-red-400 rounded-2xl" onClick={onClose}/>
     </div>
   );
 };

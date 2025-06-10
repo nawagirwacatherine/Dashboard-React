@@ -1,12 +1,17 @@
 import React from 'react'
-
+import { MdOutlineCancel } from 'react-icons/md';
 import CartsTable from '../data/CartsTable';
 
-const Cart = () => {
+const Cart = ({onClose}) => {
   return (
-    <div>
+    <div className="p-6 flex bg-white rounded-2xl shadow-sm">
+     
  <CartsTable/>
+    
+    <MdOutlineCancel className="bg-red-400 rounded-2xl" onClick={onClose}/>
+    
     </div>
+  
   )
 }
 
