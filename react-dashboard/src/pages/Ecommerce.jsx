@@ -5,16 +5,16 @@ import { GoDot } from 'react-icons/go';
 
 import { Button, SparkLine } from '../components';
 
-import { earningData, SparklineAreaData,} from '../data/dummy';
+import { earningData,} from '../data/dummy';
 
 
 const Ecommerce = () => {
   return (
-    <div className="m-4 md:m-10">
-      <div className='flex flex-wrap lg:flex-nowrap justify-center'>
+    <div className="m-4 md:m-10 p-6  rounded-2xl shadow-sm">
+      <div className=' flex-wrap lg:flex-nowrap justify-center grid grid-col-3'>
 
 
-        <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>
+        <div className='flex m-3 flex-wrap justify-center gap-1 items-center '>
           {earningData.map((item) =>
           (
             <div key={item.title}
@@ -92,7 +92,7 @@ const Ecommerce = () => {
   data={[{ x: 1, y: 10 }, { x: 2, y: 20 }, { x: 3, y: 15 }]}
   width="100%"
   height={80}
-  color="#4f46e5" // indigo-600
+  color="#4f46e5" 
 />
               </div>
 
