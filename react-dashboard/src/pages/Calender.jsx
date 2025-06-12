@@ -38,7 +38,7 @@ const localizer = dateFnsLocalizer({
 });
 
 
-const Calendar = () => {
+const Calender = () => {
   const [view, setView] = useState('month');
   const [date, setDate] = useState(new Date());
 
@@ -82,4 +82,4 @@ const Calendar = () => {
   );
 };
 
-export default Calendar;
+export default Calender;

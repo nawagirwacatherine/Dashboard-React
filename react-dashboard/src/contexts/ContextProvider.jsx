@@ -1,6 +1,6 @@
 
 
-    import React, { createContext, useContext, useState } from 'react';
+    import React, { createContext, useContext, useState,  useEffect} from 'react';
 
 const StateContext = createContext();
 
@@ -16,13 +16,22 @@ export const ContextProvider = ({ children }) => {
   const [isClicked, setIsClicked] = useState(initialState);
   const [screenSize, setScreenSize] = useState(undefined);
 
-  const handleClick = (clicked) => {
+  const handleClick = (clicked,) => {
     setIsClicked({ ...initialState, [clicked]: true });
+   
   };
 
   const closeComponent = () => {
     setIsClicked (initialState);
   }
+
+  useEffect(() => {
+  const handleResize = () => setScreenSize(window.innerWidth);
+
+  window.addEventListener('resize', handleResize);
+  handleResize(); // set initial value
+  return () => window.removeEventListener('resize', handleResize);
+}, []);
 
   return (
     <StateContext.Provider

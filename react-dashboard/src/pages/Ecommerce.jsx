@@ -10,18 +10,18 @@ import { earningData,} from '../data/dummy';
 
 const Ecommerce = () => {
   return (
-    <div className="m-4 md:m-10 p-6  rounded-2xl shadow-sm">
-      <div className=' flex-wrap lg:flex-nowrap justify-center grid grid-col-3'>
+    <div className="m-4 md:m-10 p-6  rounded-2xl  ">
+      <div className=' flex-wrap lg:flex-nowrap justify-center '>
 
 
-        <div className='flex m-3 flex-wrap justify-center gap-1 items-center '>
+        <div className='flex m-3 flex-wrap justify-center gap-1 items-center'>
           {earningData.map((item) =>
           (
             <div key={item.title}
             className='bg-white
              dark:text-gray-200
              dark:bg-secondary-dark-bg md:w-56 
-             p-4 pt-6 rounded-2xl
+             p-4 pt-6 rounded-2xl 
              '>
              <button type="button"
              style={{ color:item.iconColor, backgroundColor:item.iconBg}}
@@ -60,11 +60,10 @@ const Ecommerce = () => {
       
       </div>
 
-      <div className='flex gap-10 flex-wrap justify-center'>
-        <div className='bg-white dark:text-gray-200 
-        dark:bg-secondary-dark-bg m-3 rounded-2xl md:w-780'>
+      
+     
 
-          <div className='mt-10 flex gap flex-wrap justify-center'>
+          <div className='mt-10 flex  justify-center'>
             <div className='border-r-1 border-color m-4 pr-10'>
               <div>
                 <p>
@@ -86,27 +85,33 @@ const Ecommerce = () => {
                 </p>
               </div>
 
-              <div className='mt-5'>
-
+            
+ <div className='mt-5'>
                <SparkLine
   data={[{ x: 1, y: 10 }, { x: 2, y: 20 }, { x: 3, y: 15 }]}
   width="100%"
   height={80}
   color="#4f46e5" 
 />
-              </div>
 
-              <div className='mt-10'>
+</div>
+             
+
+               <div className='mt-5'>
               <Button
               color="white"
               bgColor="blue"
               text="Download Report"
               borderRadius="10px"
-              />
-              </div>
-            </div>
 
-          </div>
+              
+              />
+
+              </div>
+              
+           
+
+          
         </div>
       </div>
 

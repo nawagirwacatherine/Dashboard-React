@@ -8,6 +8,7 @@ import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider'
 
 const Sidebar = () => {
+    console.log("Sidebar rendered");
   const { activeMenu, setActiveMenu, screenSize} = useStateContext();
 
   const handleCloseSideBar = () => {
