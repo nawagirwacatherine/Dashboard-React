@@ -16,12 +16,6 @@ import { Header } from '../components';
 
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-// import {
-//   DropdownMenu,
-//   DropdownMenuTrigger,
-//   DropdownMenuContent,
-//   DropdownMenuItem,
-// } from '@/components/ui/dropdown-menu';
 
 import enUS from 'date-fns/locale/en-US';
 
@@ -50,19 +44,6 @@ const Calender = () => {
         <div className="flex justify-between items-center mb-4 flex-wrap gap-2">
           <Button onClick={() => setDate(new Date())}>Today</Button>
 
-          {/* <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" className="capitalize">
-                {view}
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem onClick={() => setView('month')}>Month</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setView('week')}>Week</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setView('day')}>Day</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setView('agenda')}>Agenda</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu> */}
         </div>
 
         <BigCalendar

@@ -68,25 +68,33 @@ const Navbar = () => {
   
 
   return (
+    
     <div className='flex justify-between p-2 md:mx-6 relative '>
     <NavButton title="Menu" customFunc = {() => setActiveMenu((prevActiveMenu) =>!prevActiveMenu)} color='blue' icon ={< AiOutlineMenu /> } />
 
-    <div className='flex'>
+    <div className='flex  justify-between'>
+      <div>
      <NavButton title="Cart"
       customFunc = {() => handleClick('cart')}
        color='blue' 
        icon ={< FiShoppingCart /> } />
+       </div>
 
+         <div>
             <NavButton title="Chat"
-            dotColor="#03C9D7"
+            
       customFunc = {() => handleClick('chat')}
        color='blue' 
        icon ={< BsChatLeft /> } />
+       </div>
 
+  <div>
             <NavButton title="Notification"
       customFunc = {() => handleClick('notification')}
        color='blue' 
        icon ={< RiNotification3Line /> } />
+        </div> 
+       
 
     <div className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
 
@@ -104,11 +112,39 @@ const Navbar = () => {
 
     </div>
      <Tooltip id="dashboard-tooltip" />
+     <div className="relative">
 
-     {isClicked.cart && <Cart  onClose={closeComponent}/>}
-      {isClicked.chat && <Chat onClose={closeComponent}/>}
-       {isClicked.notification && <Notification onClose={closeComponent}/>}
-        {isClicked.userProfile && <UserProfile onClose={closeComponent}/>}
+     {isClicked.cart &&( 
+
+      <div className="absolute right-0 mt-2 w-64 z-50">
+        <Cart  onClose={closeComponent}/>
+
+      </div>)}
+
+      {isClicked.chat && (
+         <div className="absolute right-0 mt-2 w-64 z-50">
+        <Chat onClose={closeComponent}/>
+        </div>
+        )}
+       {isClicked.notification && (
+         <div className="absolute right-0 mt-2 w-64 z-50">
+        <Notification onClose={closeComponent}/>
+        </div>
+      )}
+
+        
+
+
+
+        {isClicked.userProfile && (
+          
+          <div className="absolute right-0 mt-2 w-64 z-50">
+          <UserProfile onClose={closeComponent}/>
+       </div>
+      
+      )}
+
+        </div>
        
     </div>
     </div>
@@ -116,3 +152,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

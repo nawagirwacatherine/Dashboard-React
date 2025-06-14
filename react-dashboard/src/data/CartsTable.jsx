@@ -29,6 +29,7 @@ const CartsTable = () => {
         </TableBody>
       </Table>
       </div>
+      
     </div>
   );
 };

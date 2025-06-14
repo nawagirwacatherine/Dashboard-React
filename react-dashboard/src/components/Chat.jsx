@@ -8,15 +8,6 @@ const Chat = ({onClose}) => {
     { id: 2, sender: "You", content: "Yes, I have an issue with my order." },
     { id: 3, sender: "Admin", content: "Sure! Let me check that for you." },
   ];
-  // const [ visible, setVisible] = useState (true);
-
-  // const handleClick = ()=> {
-
-  //   setVisible(false);
-
-  // }
-
-  //   if (!visible) return null;
 
   return (
     <div className=" flex absolute right-5 top-16 bg-white p-4 rounded-xl shadow-lg w-80 z-50">
