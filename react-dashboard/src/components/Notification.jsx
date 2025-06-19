@@ -10,7 +10,7 @@ const Notification = ({onClose}) => {
   ];
 
   return (
-    <div className=" flex right-5 top-16 bg-white p-6 rounded-xl shadow-lg w-80 z-50">
+    <div className=" flex absolute right-5 top-16 bg-white p-4 rounded-xl shadow-lg w-80 z-50">
       <div>
       <h3 className="text-lg font-semibold mb-4 text-shadow-black">Notifications</h3> 
       <ul className="space-y-2 text-sm">
